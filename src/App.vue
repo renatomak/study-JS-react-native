@@ -1,28 +1,44 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" width="25%">
-    <HelloWorld msg="Hello Vue in CodeSandbox!"/>
+  <div class="corpo">
+    <meu-menu :rotas="routes" />
+
+    <transition name="pagina">
+      <router-view></router-view>
+    </transition>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
+import { routes } from "./routes";
+import Menu from "./components/shared/menu/Menu.vue";
 
 export default {
-  name: "App",
   components: {
-    HelloWorld
-  }
+    "meu-menu": Menu,
+  },
+
+  data() {
+    return {
+      routes,
+    };
+  },
 };
 </script>
 
 <style>
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+.corpo {
+  font-family: Helvetica, sans-serif;
+  width: 96%;
+  margin: 0 auto;
+}
+
+.pagina-enter,
+.pagina-leave-active {
+  opacity: 0;
+}
+
+.pagina-enter-active,
+.pagina-leave-active {
+  transition: opacity 0.4s;
 }
 </style>
