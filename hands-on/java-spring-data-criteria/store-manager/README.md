@@ -1,3 +1,4 @@
+# Store Manager
 
 # Sumário
 - [Requisitos do projeto](#requisitos-do-projeto)
