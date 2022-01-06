@@ -2,10 +2,10 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\renato.silva\Documents\Alura\Formacao_spring_boot\forum"/>
 			<item value="C:\Users\renato.silva\Documents\Alura\Formacao_spring_boot\4.1-spring_boot_api_rest_construa_uma_api"/>
 			<item value="C:\Users\renato.silva\Documents\Alura\Formacao_spring_boot\2.4-spring_data_jpa_repositorios_consultas_projecoes_specifications"/>
 			<item value="C:\Users\renato.silva\Documents\Alura\Formacao_spring_boot\2.3-spring_data_jpa_repositorios_consultas_projecoes_specifications"/>
-			<item value="C:\Users\renato.silva\Documents\Alura\Formacao_spring_boot\forum"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

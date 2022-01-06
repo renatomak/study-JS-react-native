@@ -4,10 +4,10 @@ import br.com.handson.store.dto.ProductsDto;
 import br.com.handson.store.service.ProductsService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import javax.validation.Valid;
+import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
@@ -16,9 +16,15 @@ public class ProductsController {
 
     private final ProductsService productsService;
 
+    // TODO: Pesquisar como fazer validações dos atributos
     @PostMapping
-    public ResponseEntity<ProductsDto> createProduct(@RequestBody ProductsDto productsDto) {
+    public ResponseEntity<ProductsDto> createProduct(@RequestBody @Valid ProductsDto productsDto) {
         return ResponseEntity.ok(productsService.createProduct(productsDto));
+    }
+
+    @GetMapping
+    public ResponseEntity<List<ProductsDto>> listProducts() {
+        return ResponseEntity.ok(productsService.listProducts());
     }
 
 }

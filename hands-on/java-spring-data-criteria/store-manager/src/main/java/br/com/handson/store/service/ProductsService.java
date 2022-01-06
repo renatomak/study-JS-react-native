@@ -6,6 +6,9 @@ import br.com.handson.store.repository.ProductsRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Service
 @RequiredArgsConstructor
 public class ProductsService {
@@ -22,5 +25,14 @@ public class ProductsService {
         productsDto.setId(id);
 
         return productsDto;
+    }
+
+    public List<ProductsDto> listProducts() {
+        List<Products> products = new ArrayList<>();
+        products = productsRepository.findAll();
+
+        List<ProductsDto> productsDtos = new ArrayList<>();
+
+        return productsDtos;
     }
 }
