@@ -1,0 +1,9 @@
+Formacao_spring_boot/.metadata/.plugins/org.eclipse.core.resources/.projects/2.2-persistencia_com_jpa_introducao_ao_hibernate/org.eclipse.jdt.core/state.dat
+*.metadata
+/metadata
+
+Formacao_spring_boot/.metadata/.log
+Formacao_spring_boot/*.metadata
+
+metadata/plugins/nome-do-plugin
+metadata/
