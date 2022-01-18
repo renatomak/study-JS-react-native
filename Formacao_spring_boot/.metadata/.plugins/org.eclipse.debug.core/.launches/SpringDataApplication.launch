@@ -7,9 +7,7 @@
         <listEntry value="1"/>
     </listAttribute>
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
-    <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
     <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="br.com.alura.spring.data.SpringDataApplication"/>
     <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value=""/>
     <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="2.4-spring_data_jpa_repositorios_consultas_projecoes_specifications"/>
-    <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
 </launchConfiguration>

@@ -13,6 +13,7 @@ public class Curso {
 	private String nome;
 	private String categoria;
 	
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;

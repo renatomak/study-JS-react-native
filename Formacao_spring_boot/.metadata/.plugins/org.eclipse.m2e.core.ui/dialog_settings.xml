@@ -2,6 +2,11 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\renato.silva\Documents\Alura\Formacao_spring_boot\2066-java-testes-mock-projeto_inicial"/>
+			<item value="C:\Users\renato.silva\Documents\Alura\Formacao_spring_boot\2108-java-testes-unitarios-tdd-projeto_inicial"/>
+			<item value="C:\Users\renato.silva\Documents\Alura\Formacao_spring_boot\springboot-essentials-master"/>
+			<item value="C:\Users\renato.silva\Documents\Alura\Formacao_spring_boot\open-cloud-erp-dados-ytJean"/>
+			<item value="C:\Users\renato.silva\Documents\Alura\Formacao_spring_boot\teste-controllers"/>
 			<item value="C:\Users\renato.silva\Documents\Alura\Formacao_spring_boot\forum"/>
 			<item value="C:\Users\renato.silva\Documents\Alura\Formacao_spring_boot\4.1-spring_boot_api_rest_construa_uma_api"/>
 			<item value="C:\Users\renato.silva\Documents\Alura\Formacao_spring_boot\2.4-spring_data_jpa_repositorios_consultas_projecoes_specifications"/>
@@ -79,12 +84,20 @@
 		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
 	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
 		<item key="width" value="480"/>
-		<item key="height" value="529"/>
+		<item key="height" value="531"/>
 		<item key="x" value="-833"/>
 		<item key="y" value="0"/>
 	</section>

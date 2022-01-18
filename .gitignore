@@ -2,8 +2,5 @@ Formacao_spring_boot/.metadata/.plugins/org.eclipse.core.resources/.projects/2.2
 *.metadata
 /metadata
 
-Formacao_spring_boot/.metadata/.log
-Formacao_spring_boot/*.metadata
-
 metadata/plugins/nome-do-plugin
 metadata/
