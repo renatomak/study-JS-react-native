@@ -4,6 +4,8 @@ import br.com.handson.store.dto.ProductsDto;
 import br.com.handson.store.model.Products;
 import br.com.handson.store.repository.ProductsRepository;
 import lombok.RequiredArgsConstructor;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -14,7 +16,7 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 public class ProductsService {
 
-    private final ProductsRepository productsRepository;
+	private final ProductsRepository productsRepository = null;
 
     public ProductsDto createProduct(ProductsDto productsDto) {
         Products products = convertToModel(productsDto);

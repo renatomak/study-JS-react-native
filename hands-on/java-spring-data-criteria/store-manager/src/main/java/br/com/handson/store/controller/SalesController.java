@@ -19,7 +19,7 @@ import java.util.List;
 @RequestMapping("/sales")
 public class SalesController {
 
-    private final SalesService salesService;
+    private final SalesService salesService = new SalesService();
 
     @PostMapping
     public ResponseEntity<SalesDto> createProduct(@RequestBody List<ProductsDto> productsDtos) {

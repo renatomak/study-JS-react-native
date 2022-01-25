@@ -3,6 +3,8 @@ package br.com.handson.store.controller;
 import br.com.handson.store.dto.ProductsDto;
 import br.com.handson.store.service.ProductsService;
 import lombok.RequiredArgsConstructor;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -14,7 +16,7 @@ import java.util.List;
 @RequestMapping("/products")
 public class ProductsController {
 
-    private final ProductsService productsService;
+	private final ProductsService productsService = new ProductsService();
 
     @PostMapping
     public ResponseEntity<ProductsDto> createProduct(@RequestBody @Valid ProductsDto productsDto) {
