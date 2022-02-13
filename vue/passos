@@ -1,0 +1,5 @@
+Consumir uma api no VUE
+
+npm install vue-resource --save
+
+npm install vue-router@2.1.1 --save
