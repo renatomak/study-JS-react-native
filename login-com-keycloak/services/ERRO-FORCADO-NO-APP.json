@@ -1,0 +1,27 @@
+{
+  "message": "Network Error",
+  "name": "Error",
+  "stack": "createError@http://192.168.0.127:19001/node_modules%5Cexpo%5CAppEntry.bundle?platform=android&dev=true&hot=false&strict=false&minify=false:204664:26\nhandleError@http://192.168.0.127:19001/node_modules%5Cexpo%5CAppEntry.bundle?platform=android&dev=true&hot=false&strict=false&minify=false:204567:27\ndispatchEvent@http://192.168.0.127:19001/node_modules%5Cexpo%5CAppEntry.bundle?platform=android&dev=true&hot=false&strict=false&minify=false:35116:31\nsetReadyState@http://192.168.0.127:19001/node_modules%5Cexpo%5CAppEntry.bundle?platform=android&dev=true&hot=false&strict=false&minify=false:34248:33\n__didCompleteResponse@http://192.168.0.127:19001/node_modules%5Cexpo%5CAppEntry.bundle?platform=android&dev=true&hot=false&strict=false&minify=false:34056:29\nemit@http://192.168.0.127:19001/node_modules%5Cexpo%5CAppEntry.bundle?platform=android&dev=true&hot=false&strict=false&minify=false:2806:42\n__callFunction@http://192.168.0.127:19001/node_modules%5Cexpo%5CAppEntry.bundle?platform=android&dev=true&hot=false&strict=false&minify=false:3840:36\nhttp://192.168.0.127:19001/node_modules%5Cexpo%5CAppEntry.bundle?platform=android&dev=true&hot=false&strict=false&minify=false:3568:31\n__guard@http://192.168.0.127:19001/node_modules%5Cexpo%5CAppEntry.bundle?platform=android&dev=true&hot=false&strict=false&minify=false:3794:15\ncallFunctionReturnFlushedQueue@http://192.168.0.127:19001/node_modules%5Cexpo%5CAppEntry.bundle?platform=android&dev=true&hot=false&strict=false&minify=false:3567:21\ncallFunctionReturnFlushedQueue@[native code]",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "transformRequest": [null],
+    "transformResponse": [null],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "method": "post",
+    "url": "https://dev-keycloak.sumicity.net.br/auth/realms/sumicity-admin/protocol/openid-connect/token",
+    "data": "client_id=sumicity-panel-admin&username=renato.silva&password=#R3n@t0@01&grant_type=password"
+  },
+  "status": null
+}

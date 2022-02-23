@@ -6,7 +6,6 @@ const Config = {
         Accept: 'application/json'
     },
     HEADER_LOGIN: {
-        Accept: 'application/json',
         'Access-Control-Allow-Origin': '*',
         'Content-type': 'application/x-www-form-urlencoded',
         Authorization:
