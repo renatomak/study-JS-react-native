@@ -42,13 +42,13 @@ export const AuthProvider = ({ children }) => {
     loadStoragedData()
   }, [])
 
-  if (loading) {
-    return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItem: 'center'}}>
-        <ActivityIndicator size="large" color="#666" />
-      </View>
-    )
-  }
+  // if (loading) {
+  //   return (
+  //     <View style={{ flex: 1, justifyContent: 'center', alignItem: 'center'}}>
+  //       <ActivityIndicator size="large" color="#666" />
+  //     </View>
+  //   )
+  // }
 
   const signOut = () => {
     AsyncStorage.clear().then(() => {
