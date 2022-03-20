@@ -8,23 +8,11 @@ import moment from 'moment';
 import 'moment/locale/pt-br';
 import commonStyles from '../commonStyles';
 import Task from '../components/Task';
+import {data} from './data';
 
 export default class TaskList extends Component {
   state = {
-    tasks: [
-      {
-        id: Math.random(),
-        desc: 'Comprar Livro de React Native',
-        estimateAt: new Date(),
-        doneAt: new Date(),
-      },
-      {
-        id: Math.random(),
-        desc: 'Ler Livro de React Native',
-        estimateAt: new Date(),
-        doneAt: null,
-      },
-    ],
+    tasks: data,
   };
   render() {
     const today = moment()
